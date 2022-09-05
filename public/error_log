@@ -1,0 +1,399 @@
+[02-Jul-2022 03:01:24 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.2". You are running 7.2.34. in /home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/platform_check.php on line 24
+[02-Jul-2022 03:04:26 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.2". You are running 7.2.34. in /home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/platform_check.php on line 24
+[02-Jul-2022 03:04:31 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.2". You are running 7.2.34. in /home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/platform_check.php on line 24
+[02-Jul-2022 03:04:41 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.2". You are running 7.2.34. in /home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/platform_check.php on line 24
+[02-Jul-2022 12:37:11 Asia/Kolkata] PHP Fatal error:  During inheritance of ArrayAccess: Uncaught ErrorException: Return type of Illuminate\Support\Collection::offsetExists($key) should either be compatible with ArrayAccess::offsetExists(mixed $offset): bool, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice in /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Support/Collection.php:1349
+Stack trace:
+#0 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Support/Collection.php(11): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/ClassLoader.php(571): include('/home/alimabcol...')
+#2 /home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#3 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Support/helpers.php(110): Composer\Autoload\ClassLoader->loadClass()
+#4 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(89): collect()
+#5 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(78): Illuminate\Foundation\PackageManifest->config()
+#6 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\Foundation\PackageManifest->aliases()
+#7 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(230): Illuminate\Foundation\Bootstrap\RegisterFacades->bootstrap()
+#8 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\Foundation\Application->bootstrapWith()
+#9 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(135): Illuminate\Foundation\Http\Kernel->bootstrap()
+#10 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(109): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter()
+#11 /home/alimabcolariko/software.mabcolaboratories.com/public/index.php(55): Illuminate\Foundation\Http\Kernel->handle()
+#12 {main} in /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Support/Collection.php on line 11
+[02-Jul-2022 03:08:47 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.2". You are running 7.2.34. in /home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/platform_check.php on line 24
+[02-Jul-2022 03:08:51 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.2". You are running 7.2.34. in /home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/platform_check.php on line 24
+[02-Jul-2022 03:36:16 America/New_York] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.0.2". You are running 7.2.34. in /home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/platform_check.php on line 24
+[31-Jul-2022 00:42:02 America/New_York] PHP Warning:  include(/home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/ClassLoader.php on line 571
+[31-Jul-2022 00:42:02 America/New_York] PHP Warning:  include(): Failed opening '/home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/ClassLoader.php on line 571
+[31-Jul-2022 00:42:02 America/New_York] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct()
+#1 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#2 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#3 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve()
+#4 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#6 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#7 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve()
+#8 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make()
+#9 /home/alimabcolariko/software.mabcolaboratories.com/public/index.php(52): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#1 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#2 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve()
+#3 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#5 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#6 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve()
+#7 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make()
+#8 /home/alimabcolariko/software.mabcolaboratories.com/public/index.php(52): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[31-Jul-2022 00:42:04 America/New_York] PHP Warning:  include(/home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/ClassLoader.php on line 571
+[31-Jul-2022 00:42:04 America/New_York] PHP Warning:  include(): Failed opening '/home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/ClassLoader.php on line 571
+[31-Jul-2022 00:42:04 America/New_York] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct()
+#1 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#2 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#3 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve()
+#4 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#6 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#7 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve()
+#8 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make()
+#9 /home/alimabcolariko/software.mabcolaboratories.com/public/index.php(52): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#1 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#2 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve()
+#3 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#5 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#6 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve()
+#7 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make()
+#8 /home/alimabcolariko/software.mabcolaboratories.com/public/index.php(52): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[31-Jul-2022 00:42:05 America/New_York] PHP Warning:  include(/home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/ClassLoader.php on line 571
+[31-Jul-2022 00:42:05 America/New_York] PHP Warning:  include(): Failed opening '/home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/ClassLoader.php on line 571
+[31-Jul-2022 00:42:05 America/New_York] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct()
+#1 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#2 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#3 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve()
+#4 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#6 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#7 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve()
+#8 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make()
+#9 /home/alimabcolariko/software.mabcolaboratories.com/public/index.php(52): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#1 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#2 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve()
+#3 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#5 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#6 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve()
+#7 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make()
+#8 /home/alimabcolariko/software.mabcolaboratories.com/public/index.php(52): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[31-Jul-2022 00:42:15 America/New_York] PHP Warning:  include(/home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/ClassLoader.php on line 571
+[31-Jul-2022 00:42:15 America/New_York] PHP Warning:  include(): Failed opening '/home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/ClassLoader.php on line 571
+[31-Jul-2022 00:42:15 America/New_York] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct()
+#1 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#2 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#3 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve()
+#4 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#6 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#7 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve()
+#8 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make()
+#9 /home/alimabcolariko/software.mabcolaboratories.com/public/index.php(52): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#1 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#2 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve()
+#3 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#5 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#6 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve()
+#7 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make()
+#8 /home/alimabcolariko/software.mabcolaboratories.com/public/index.php(52): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[31-Jul-2022 00:42:42 America/New_York] PHP Warning:  include(/home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/ClassLoader.php on line 571
+[31-Jul-2022 00:42:42 America/New_York] PHP Warning:  include(): Failed opening '/home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/ClassLoader.php on line 571
+[31-Jul-2022 00:42:42 America/New_York] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct()
+#1 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#2 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#3 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve()
+#4 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#6 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#7 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve()
+#8 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make()
+#9 /home/alimabcolariko/software.mabcolaboratories.com/public/index.php(52): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#1 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#2 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve()
+#3 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#5 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#6 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve()
+#7 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make()
+#8 /home/alimabcolariko/software.mabcolaboratories.com/public/index.php(52): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[31-Jul-2022 00:43:01 America/New_York] PHP Warning:  include(/home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/ClassLoader.php on line 571
+[31-Jul-2022 00:43:01 America/New_York] PHP Warning:  include(): Failed opening '/home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/ClassLoader.php on line 571
+[31-Jul-2022 00:43:01 America/New_York] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct()
+#1 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#2 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#3 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve()
+#4 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#6 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#7 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve()
+#8 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make()
+#9 /home/alimabcolariko/software.mabcolaboratories.com/public/index.php(52): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#1 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#2 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve()
+#3 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#5 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#6 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve()
+#7 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make()
+#8 /home/alimabcolariko/software.mabcolaboratories.com/public/index.php(52): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[31-Jul-2022 00:52:52 America/New_York] PHP Warning:  include(/home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/ClassLoader.php on line 571
+[31-Jul-2022 00:52:52 America/New_York] PHP Warning:  include(): Failed opening '/home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/ClassLoader.php on line 571
+[31-Jul-2022 00:52:52 America/New_York] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct()
+#1 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#2 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#3 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve()
+#4 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#6 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#7 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve()
+#8 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make()
+#9 /home/alimabcolariko/software.mabcolaboratories.com/public/index.php(52): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#1 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#2 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve()
+#3 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#5 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#6 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve()
+#7 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make()
+#8 /home/alimabcolariko/software.mabcolaboratories.com/public/index.php(52): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[31-Jul-2022 00:53:12 America/New_York] PHP Warning:  include(/home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/ClassLoader.php on line 571
+[31-Jul-2022 00:53:12 America/New_York] PHP Warning:  include(): Failed opening '/home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/ClassLoader.php on line 571
+[31-Jul-2022 00:53:12 America/New_York] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct()
+#1 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#2 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#3 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve()
+#4 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#6 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#7 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve()
+#8 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make()
+#9 /home/alimabcolariko/software.mabcolaboratories.com/public/index.php(52): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#1 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#2 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve()
+#3 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#5 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#6 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve()
+#7 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make()
+#8 /home/alimabcolariko/software.mabcolaboratories.com/public/index.php(52): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[31-Jul-2022 00:53:39 America/New_York] PHP Warning:  include(/home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/ClassLoader.php on line 571
+[31-Jul-2022 00:53:39 America/New_York] PHP Warning:  include(): Failed opening '/home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/ClassLoader.php on line 571
+[31-Jul-2022 00:53:39 America/New_York] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct()
+#1 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#2 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#3 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve()
+#4 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#6 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#7 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve()
+#8 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make()
+#9 /home/alimabcolariko/software.mabcolaboratories.com/public/index.php(52): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#1 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#2 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve()
+#3 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#5 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#6 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve()
+#7 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make()
+#8 /home/alimabcolariko/software.mabcolaboratories.com/public/index.php(52): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[31-Jul-2022 00:55:55 America/New_York] PHP Warning:  include(/home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/ClassLoader.php on line 571
+[31-Jul-2022 00:55:55 America/New_York] PHP Warning:  include(): Failed opening '/home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/ClassLoader.php on line 571
+[31-Jul-2022 00:55:55 America/New_York] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct()
+#1 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#2 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#3 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve()
+#4 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#6 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#7 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve()
+#8 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make()
+#9 /home/alimabcolariko/software.mabcolaboratories.com/public/index.php(52): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#1 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#2 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve()
+#3 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#5 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#6 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve()
+#7 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make()
+#8 /home/alimabcolariko/software.mabcolaboratories.com/public/index.php(52): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[31-Jul-2022 00:56:17 America/New_York] PHP Warning:  include(/home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/ClassLoader.php on line 571
+[31-Jul-2022 00:56:17 America/New_York] PHP Warning:  include(): Failed opening '/home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/ClassLoader.php on line 571
+[31-Jul-2022 00:56:17 America/New_York] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct()
+#1 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#2 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#3 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve()
+#4 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#6 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#7 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve()
+#8 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make()
+#9 /home/alimabcolariko/software.mabcolaboratories.com/public/index.php(52): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#1 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#2 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve()
+#3 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#5 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#6 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve()
+#7 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make()
+#8 /home/alimabcolariko/software.mabcolaboratories.com/public/index.php(52): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[31-Jul-2022 00:56:52 America/New_York] PHP Warning:  include(/home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/ClassLoader.php on line 571
+[31-Jul-2022 00:56:52 America/New_York] PHP Warning:  include(): Failed opening '/home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/ClassLoader.php on line 571
+[31-Jul-2022 00:56:52 America/New_York] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct()
+#1 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#2 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#3 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve()
+#4 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#6 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#7 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve()
+#8 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make()
+#9 /home/alimabcolariko/software.mabcolaboratories.com/public/index.php(52): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#1 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#2 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve()
+#3 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#5 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#6 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve()
+#7 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make()
+#8 /home/alimabcolariko/software.mabcolaboratories.com/public/index.php(52): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[31-Jul-2022 00:57:06 America/New_York] PHP Warning:  include(/home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/../../app/Http/Kernel.php): Failed to open stream: No such file or directory in /home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/ClassLoader.php on line 571
+[31-Jul-2022 00:57:06 America/New_York] PHP Warning:  include(): Failed opening '/home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/alimabcolariko/software.mabcolaboratories.com/vendor/composer/ClassLoader.php on line 571
+[31-Jul-2022 00:57:06 America/New_York] PHP Fatal error:  Uncaught ReflectionException: Class "App\Http\Kernel" does not exist in /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct()
+#1 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#2 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#3 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve()
+#4 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#5 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#6 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#7 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve()
+#8 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make()
+#9 /home/alimabcolariko/software.mabcolaboratories.com/public/index.php(52): Illuminate\Foundation\Application->make()
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Http\Kernel] does not exist. in /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#1 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#2 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(269): Illuminate\Foundation\Application->resolve()
+#3 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(805): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#4 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build()
+#5 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve()
+#6 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve()
+#7 /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make()
+#8 /home/alimabcolariko/software.mabcolaboratories.com/public/index.php(52): Illuminate\Foundation\Application->make()
+#9 {main}
+  thrown in /home/alimabcolariko/software.mabcolaboratories.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
